@@ -6,3 +6,31 @@
   outline: none;
   text-decoration: none;
 }
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./image/sunset.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 450px;
+  height: 530px;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid rgba(257, 257, 257, 0.7);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* property specifies what should happen if content overflows an element's box*/
+  overflow: hidden;
+}
